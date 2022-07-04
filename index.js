@@ -15,9 +15,9 @@ function autoUpdate() {
 		  timeout = setTimeout(later, wait)
 		  if (callNow) func.apply(context, args)
 		}
-	  }
+	}
 	
-	document.getElementById('poetryName').addEventListener('input', debounce(() => {
+	document.getElementById("poetryName").addEventListener("input", debounce(() => {
 		console.log(poetryName.value);
 		showPoetries(poetryName.value);
 	  }, 500))
