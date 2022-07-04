@@ -23,8 +23,6 @@ function autoUpdate() {
 	  }, 500))
 }
 
-
-
 async function showPoetries(poetryName) {
 
 	console.log("test");
