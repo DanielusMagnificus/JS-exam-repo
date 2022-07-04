@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search App</title>
+    <script src="index.js" defer></script>
+    
+</head>
+<body onload="autoUpdate()">
+    <select id="languageOptions">
+        <option name="language1" value="English">English</option>
+        <option name="language2" value="Mongolian">Mongolian</option>
+    </select>
+
+    <label for="poetryName">Name:</label>
+    <input type="text" id="poetryName" style="width:50px;">
+
+    <button onclick="showPoetries()">Show Poetries</button>
+
+
+    <main id="main"></main>
+</body>
+</html>
